@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Lucky-Number</string>
+    <string name="know_your_lucky_number">Know Your Lucky Number</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="click_me">click me!</string>
+    <string name="your_lucky_number_is">Your Lucky number is</string>
+    <string name="share_result">Share result</string>
+    <string name="header_text">%1$s %2$s</string>
 </resources>
