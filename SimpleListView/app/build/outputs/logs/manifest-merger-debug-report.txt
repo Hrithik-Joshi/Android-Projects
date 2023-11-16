@@ -97,10 +97,10 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\hrithikjoshi\.grad
 	android:allowBackup
 		ADDED from C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:12:9-52
+		ADDED from C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:12:9-54
 	android:dataExtractionRules
 		ADDED from C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.simplelistview.MainActivity
+activity#com.example.worldcuplistview.MainActivity
 ADDED from C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:14:9-22:20
 	android:exported
 		ADDED from C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:16:13-36
@@ -240,7 +240,7 @@ ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\trans
 		ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-permission#com.example.simplelistview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+permission#com.example.worldcuplistview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
 	android:protectionLevel
 		ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
@@ -250,7 +250,7 @@ uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-uses-permission#com.example.simplelistview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+uses-permission#com.example.worldcuplistview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
 ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 	android:name
 		ADDED from [androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94

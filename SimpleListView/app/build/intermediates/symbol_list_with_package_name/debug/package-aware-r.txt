@@ -1,4 +1,4 @@
-com.example.simplelistview
+com.example.worldcuplistview
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -3187,6 +3187,7 @@ id cos
 id counterclockwise
 id countryName
 id cradle
+id cupWinsTxt
 id currentState
 id custom
 id customPanel
@@ -3292,8 +3293,8 @@ id line1
 id line3
 id linear
 id listMode
-id listView
 id list_item
+id listview
 id m3_side_sheet
 id marquee
 id masked
@@ -3518,7 +3519,6 @@ id title_template
 id toggle
 id top
 id topPanel
-id totalWins
 id touch_outside
 id transitionToEnd
 id transitionToStart
@@ -3682,7 +3682,7 @@ layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
-layout list_item_layout
+layout list_item_view
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3787,7 +3787,6 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string clear_text_end_icon_content_description
-string country_name
 string error_a11y_label
 string error_icon_content_description
 string exposed_dropdown_menu_content_description
@@ -4533,7 +4532,7 @@ style Theme_MaterialComponents_Light_NoActionBar
 style Theme_MaterialComponents_Light_NoActionBar_Bridge
 style Theme_MaterialComponents_NoActionBar
 style Theme_MaterialComponents_NoActionBar_Bridge
-style Theme_SimpleListView
+style Theme_WorldCupListView
 style ThemeOverlay_AppCompat
 style ThemeOverlay_AppCompat_ActionBar
 style ThemeOverlay_AppCompat_Dark

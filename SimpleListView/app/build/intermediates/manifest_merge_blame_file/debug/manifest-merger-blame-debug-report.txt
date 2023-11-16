@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.simplelistview"
+3    package="com.example.worldcuplistview"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -12,12 +12,12 @@
 10
 11    <permission
 11-->[androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.example.simplelistview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12        android:name="com.example.worldcuplistview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
 12-->[androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
 13        android:protectionLevel="signature" />
 13-->[androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
 14
-15    <uses-permission android:name="com.example.simplelistview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15    <uses-permission android:name="com.example.worldcuplistview.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 15-->[androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
 15-->[androidx.core:core:1.9.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\c73afc1fa215d9ca128620a3c01802b0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
 16
@@ -40,11 +40,11 @@
 26        android:supportsRtl="true"
 26-->C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:11:9-35
 27        android:testOnly="true"
-28        android:theme="@style/Theme.SimpleListView" >
-28-->C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:12:9-52
+28        android:theme="@style/Theme.WorldCupListView" >
+28-->C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:12:9-54
 29        <activity
 29-->C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:14:9-22:20
-30            android:name="com.example.simplelistview.MainActivity"
+30            android:name="com.example.worldcuplistview.MainActivity"
 30-->C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:15:13-41
 31            android:exported="true" >
 31-->C:\Users\hrithikjoshi\AndroidStudioProjects\Learning ListView\SimpleListView\app\src\main\AndroidManifest.xml:16:13-36
@@ -64,7 +64,7 @@
 39-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
 40            android:name="androidx.startup.InitializationProvider"
 40-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-41            android:authorities="com.example.simplelistview.androidx-startup"
+41            android:authorities="com.example.worldcuplistview.androidx-startup"
 41-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
 42            android:exported="false" >
 42-->[androidx.emoji2:emoji2:1.2.0] C:\Users\hrithikjoshi\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37

@@ -7,9 +7,8 @@
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">SimpleListView</string>
-    <string name="country_name">Country Name</string>
-    <style name="Theme.SimpleListView" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <string name="app_name">WorldCup ListView</string>
+    <style name="Theme.WorldCupListView" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>

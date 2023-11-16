@@ -1,110 +1,106 @@
 [
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable-v24\\ic_launcher_foreground.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/layout_list_item_view.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/layout/list_item_view.xml"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable_saudiarabia.png.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable\\saudiarabia.png"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.simplelistview.app-merged_res-32:/layout_list_item_layout.xml.flat",
-        "source": "com.example.simplelistview.app-main-34:/layout/list_item_layout.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable_germany.png.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable/germany.png"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\layout\\activity_main.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/layout_activity_main.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\xml\\backup_rules.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable_unitedstates.png.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable\\unitedstates.png"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable_brazil.png.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable/brazil.png"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable_france.png.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable\\france.png"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-anydpi-v33_ic_launcher.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-anydpi-v33\\ic_launcher.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable_germany.png.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable\\germany.png"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable_unitedkingdom.png.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable/unitedkingdom.png"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable_france.png.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable/france.png"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable_unitedstates.png.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable/unitedstates.png"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable_brazil.png.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable\\brazil.png"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable_spain.png.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable/spain.png"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable_spain.png.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable\\spain.png"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-anydpi-v33_ic_launcher.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-anydpi-v33/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\layout_list_item_layout.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\layout\\list_item_layout.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable_unitedkingdom.png.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable\\unitedkingdom.png"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\xml\\data_extraction_rules.xml"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/drawable_saudiarabia.png.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/drawable/saudiarabia.png"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/xml_backup_rules.xml.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-merged_res-32:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hrithikjoshi\\.gradle\\daemon\\7.5\\com.example.simplelistview.app-main-34:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.example.worldcuplistview.app-merged_res-32:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.worldcuplistview.app-main-34:/mipmap-xhdpi/ic_launcher_round.webp"
     }
 ]
