@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="French Teacher App"
+        android:textColor="@color/black"
+        android:textFontWeight="900"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094" />
+
+    <Button
+        android:id="@+id/yellowBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#F3DD1D"
+        android:onClick="sayTheColor"
+        android:tag="yellow"
+        android:text="Yellow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/redBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#E31506"
+        android:onClick="sayTheColor"
+        android:tag="red"
+        android:text="@string/red"
+        app:layout_constraintStart_toStartOf="@+id/yellowBtn"
+        app:layout_constraintTop_toBottomOf="@+id/yellowBtn"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/greenBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#148C18"
+        android:onClick="sayTheColor"
+        android:tag="green"
+        android:text="@string/green"
+        app:layout_constraintStart_toStartOf="@+id/redBtn"
+        app:layout_constraintTop_toBottomOf="@+id/redBtn"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/blueBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#0A5A9A"
+        android:onClick="sayTheColor"
+        android:tag="blue"
+        android:text="@string/blue"
+        app:layout_constraintStart_toStartOf="@+id/greenBtn"
+        app:layout_constraintTop_toBottomOf="@+id/greenBtn"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
