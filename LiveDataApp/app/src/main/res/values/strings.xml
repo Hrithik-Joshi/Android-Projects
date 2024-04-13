@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LiveDataApp</string>
+    <string name="live_data">Live Data App</string>
+    <string name="enter_the_number">Enter the number</string>
+    <string name="add">Add</string>
+    <string name="_0">0</string>
+</resources>
