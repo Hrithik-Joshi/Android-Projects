@@ -4,4 +4,6 @@
     <string name="enter_your_email">Enter your email</string>
     <string name="delete">Delete</string>
     <string name="save">Save</string>
+    <string name="your_name">Your name</string>
+    <string name="your_email">Your email</string>
 </resources>
