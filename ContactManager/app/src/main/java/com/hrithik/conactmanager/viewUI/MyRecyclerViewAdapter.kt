@@ -1,7 +1,10 @@
 package com.hrithik.conactmanager.viewUI
 
+import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.hrithik.conactmanager.R
 import com.hrithik.conactmanager.databinding.CardItemBinding
 import com.hrithik.conactmanager.room.User
 
@@ -11,15 +14,18 @@ class MyRecyclerViewAdapter(
 ) : RecyclerView.Adapter<MyViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
-        TODO("Not yet implemented")
+        val layoutInflater= LayoutInflater.from(parent.context)
+        val binding : CardItemBinding = DataBindingUtil.
+        inflate(layoutInflater, R.layout.card_item,parent,false)
+        return MyViewHolder(binding)
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return userList.size
     }
 
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.bind(userList[position],clickListener)
     }
 }
 class MyViewHolder(private val binding:CardItemBinding):RecyclerView.ViewHolder(binding.root){
