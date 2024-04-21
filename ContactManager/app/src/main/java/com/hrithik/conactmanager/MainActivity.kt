@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         userViewModel = ViewModelProvider(
             this,
             factory
-        )[userViewModel::class.java]
+        ).get(UserViewModel::class.java)
 
         binding.userViewModel = userViewModel
 
