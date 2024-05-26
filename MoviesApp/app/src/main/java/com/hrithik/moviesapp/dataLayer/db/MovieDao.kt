@@ -1,10 +1,10 @@
-package com.hrithik.moviesapp.db
+package com.hrithik.moviesapp.dataLayer.db
 
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.hrithik.moviesapp.data.Movie
+import com.hrithik.moviesapp.dataLayer.model.Movie
 
 @Dao
 interface MovieDao {

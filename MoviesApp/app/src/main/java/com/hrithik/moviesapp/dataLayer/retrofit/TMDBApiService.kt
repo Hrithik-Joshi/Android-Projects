@@ -1,6 +1,6 @@
-package com.hrithik.moviesapp.retrofit
+package com.hrithik.moviesapp.dataLayer.retrofit
 
-import com.hrithik.moviesapp.data.MovieList
+import com.hrithik.moviesapp.dataLayer.model.MovieList
 import retrofit2.Response
 import retrofit2.http.GET
 import retrofit2.http.Query
