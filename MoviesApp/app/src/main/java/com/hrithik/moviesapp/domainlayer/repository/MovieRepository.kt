@@ -1,6 +1,6 @@
-package com.hrithik.moviesapp.domainLayer.repository
+package com.hrithik.moviesapp.domainlayer.repository
 
-import com.hrithik.moviesapp.dataLayer.model.Movie
+import com.hrithik.moviesapp.datalayer.model.Movie
 
 interface MovieRepository {
 

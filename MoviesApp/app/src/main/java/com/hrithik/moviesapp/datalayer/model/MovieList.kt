@@ -1,4 +1,4 @@
-package com.hrithik.moviesapp.dataLayer.model
+package com.hrithik.moviesapp.datalayer.model
 
 import com.google.gson.annotations.SerializedName
 

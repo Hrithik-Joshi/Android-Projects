@@ -1,10 +1,8 @@
-package com.hrithik.moviesapp.dataLayer.db
+package com.hrithik.moviesapp.datalayer.db
 
-import android.content.Context
 import androidx.room.Database
-import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.hrithik.moviesapp.dataLayer.model.Movie
+import com.hrithik.moviesapp.datalayer.model.Movie
 
 @Database(entities = [Movie::class], version = 1, exportSchema = false)
 abstract class TMDBDatabase : RoomDatabase() {
