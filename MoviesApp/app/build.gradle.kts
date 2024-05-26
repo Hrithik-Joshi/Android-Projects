@@ -67,13 +67,11 @@ dependencies {
     ksp("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
 
     // Room database
-
-    implementation("androidx.room:room-runtime:$room_version")
+    implementation(libs.androidx.room.runtime)
     // To use Kotlin annotation processing tool (ksp)
-    ksp("androidx.room:room-compiler:$room_version")
-
+    ksp(libs.androidx.room.compiler)
     // optional - Kotlin Extensions and Coroutines support for Room
-    implementation ("androidx.room:room-ktx:$room_version")
+    implementation (libs.androidx.room.ktx)
 
     // Coroutines
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
