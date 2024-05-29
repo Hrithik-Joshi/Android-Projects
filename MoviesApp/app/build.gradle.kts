@@ -20,7 +20,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField ("String","API_KEY","\"ce89f5e13d458682253d72bacdd90cae\"")
+        buildConfigField ("String","API_KEY","\"eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZTg5ZjVlMTNkNDU4NjgyMjUzZDcyYmFjZGQ5MGNhZSIsInN1YiI6IjY2M2NkZjYwYjI5NzAyZDYzNzM5ZDhjNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.luJlSQ6fPzCh3v8Bjx361iQt4uQeDst__u6z18_LaYc\"")
         buildConfigField("String","BASE_URL","\"https://api.themoviedb.org/3/\"")
     }
 
