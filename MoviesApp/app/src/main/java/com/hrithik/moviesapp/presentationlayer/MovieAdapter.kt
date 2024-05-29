@@ -4,6 +4,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
 import com.hrithik.moviesapp.R
 import com.hrithik.moviesapp.databinding.ListItemBinding
 import com.hrithik.moviesapp.datalayer.model.Movie
@@ -42,7 +43,14 @@ class MovieAdapter() : RecyclerView.Adapter<MovieAdapter.MyViewHolder>() {
         fun bind(movie: Movie) {
             binding.titleText.text = movie.title
             binding.descText.text = movie.overview
-            binding.releaseDate.text = movie.releaseDate
+            val str = "Release: " + movie.releaseDate
+            binding.releaseDate.text = str
+
+            val posterURL = "https://image.tmdb.org/t/p/w500/" + movie.posterPath
+
+            Glide.with(binding.imageView.context)
+                .load(posterURL)
+                .into(binding.imageView)
         }
     }
 }
