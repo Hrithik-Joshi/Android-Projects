@@ -7,6 +7,6 @@ import com.hrithik.moviesapp.datalayer.model.Movie
 @Database(entities = [Movie::class], version = 1, exportSchema = false)
 abstract class TMDBDatabase : RoomDatabase() {
 
-    abstract val movieDao: MovieDao
+    abstract fun movieDao(): MovieDao
 
 }
