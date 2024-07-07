@@ -2,10 +2,11 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
     id("com.google.devtools.ksp")
+    id("kotlin-kapt")
 }
 
-val room_version = "2.6.1"
-val lifecycle_version = "2.7.0"
+val roomversion = "2.6.1"
+val lifecycleversion = "2.7.0"
 
 android {
     namespace = "com.hrithik.moviesapp"
@@ -60,15 +61,15 @@ dependencies {
     androidTestImplementation(libs.androidx.espresso.core)
 
     // ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycleversion")
     // LiveData
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycleversion")
     // Saved state module for ViewModel
-    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycle_version")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-savedstate:$lifecycleversion")
 
 
     // Annotation processor
-    ksp("androidx.lifecycle:lifecycle-compiler:$lifecycle_version")
+    ksp("androidx.lifecycle:lifecycle-compiler:$lifecycleversion")
 
     // Room database
     implementation(libs.androidx.room.runtime)
@@ -81,8 +82,8 @@ dependencies {
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
     // Dagger
-    implementation (libs.dagger)
-    ksp(libs.dagger.compiler)
+    implementation ("com.google.dagger:dagger:2.50")
+    kapt("com.google.dagger:dagger-compiler:2.50")
 
     // Retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
