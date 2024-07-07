@@ -1,6 +1,6 @@
 package com.hrithik.moviesapp.presentationlayer.di
 
-import com.hrithik.moviesapp.MainActivity
+import com.hrithik.moviesapp.presentationlayer.MainActivity
 import dagger.Subcomponent
 //MovieSubComponent: A subcomponent that inherits dependencies from a parent component
 @MovieScope
