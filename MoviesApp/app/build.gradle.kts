@@ -20,7 +20,7 @@ android {
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
 
-        buildConfigField ("String","API_KEY","\"eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjZTg5ZjVlMTNkNDU4NjgyMjUzZDcyYmFjZGQ5MGNhZSIsInN1YiI6IjY2M2NkZjYwYjI5NzAyZDYzNzM5ZDhjNSIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.luJlSQ6fPzCh3v8Bjx361iQt4uQeDst__u6z18_LaYc\"")
+        buildConfigField ("String","API_KEY","\"ce89f5e13d458682253d72bacdd90cae\"")
         buildConfigField("String","BASE_URL","\"https://api.themoviedb.org/3/\"")
     }
 
@@ -81,8 +81,8 @@ dependencies {
     implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
 
     // Dagger
-    implementation ("com.google.dagger:dagger:2.50")
-    ksp("com.google.dagger:dagger-compiler:2.44.2")
+    implementation (libs.dagger)
+    ksp(libs.dagger.compiler)
 
     // Retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
