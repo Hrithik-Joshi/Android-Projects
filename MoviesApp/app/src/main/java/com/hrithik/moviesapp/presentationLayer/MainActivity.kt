@@ -3,6 +3,7 @@ package com.hrithik.moviesapp.presentationLayer
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
+import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
@@ -66,6 +67,33 @@ class MainActivity : AppCompatActivity() {
         val inflater: MenuInflater = menuInflater
         inflater.inflate(R.menu.update,menu)
         return true
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        return when (item.itemId){
+            R.id.action_update -> {
+                updateMovies()
+                true
+            }else -> super.onOptionsItemSelected(item)
+
+        }
+    }
+
+    private fun updateMovies() {
+        binding.movieProgressBar.visibility = View.VISIBLE
+        val response = movieViewModel.getUpdatedMovies()
+        response.observe(this, Observer {
+
+            if (it!= null){
+                adapter.setList(it)
+                adapter.notifyDataSetChanged()
+                binding.movieProgressBar.visibility = View.GONE
+            }else{
+                binding.movieProgressBar.visibility = View.GONE
+
+            }
+        })
+
     }
 
 
