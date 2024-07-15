@@ -1,5 +1,6 @@
 package com.hrithik.moviesapp.presentationLayer
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuInflater
@@ -27,9 +28,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
-
+        supportActionBar?.show()
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         (application as Injector).createMovieSubComponent().inject(this)
 
@@ -47,6 +46,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     private fun displayPopularMovies() {
         binding.movieProgressBar.visibility = View.VISIBLE
         val responseLiveData = movieViewModel.getMovies()
@@ -79,6 +79,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    @SuppressLint("NotifyDataSetChanged")
     private fun updateMovies() {
         binding.movieProgressBar.visibility = View.VISIBLE
         val response = movieViewModel.getUpdatedMovies()
