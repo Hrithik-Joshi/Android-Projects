@@ -2,7 +2,6 @@ plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
     id("com.google.devtools.ksp")
-    id("kotlin-kapt")
 }
 
 val roomversion = "2.6.1"
@@ -85,7 +84,8 @@ dependencies {
 
     // Dagger
     implementation ("com.google.dagger:dagger:2.50")
-    kapt("com.google.dagger:dagger-compiler:2.50")
+    ksp("com.google.dagger:dagger-compiler:2.50")
+
 
     // Retrofit
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
